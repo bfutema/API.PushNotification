@@ -38,3 +38,6 @@ C:\Repositorios\PropostasICOMON\API.PushNotification\src\API.PushNotification\bi
 C:\Repositorios\PropostasICOMON\API.PushNotification\src\API.PushNotification\bin\Owin.dll
 C:\Repositorios\PropostasICOMON\API.PushNotification\src\API.PushNotification\bin\Microsoft.Owin.xml
 C:\Repositorios\PropostasICOMON\API.PushNotification\src\API.PushNotification\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Repositorios\PropostasICOMON\API.PushNotification\src\API.PushNotification\bin\System.Web.Cors.dll
+C:\Repositorios\PropostasICOMON\API.PushNotification\src\API.PushNotification\bin\System.Web.Http.Cors.dll
+C:\Repositorios\PropostasICOMON\API.PushNotification\src\API.PushNotification\bin\System.Web.Http.Cors.xml
