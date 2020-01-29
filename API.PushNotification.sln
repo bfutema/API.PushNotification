@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0-Services", "0-Services", "{44641D33-1655-49DD-BCB5-ED14C2182AB3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Application", "1-Application", "{D9D1CBD6-DC2C-4669-8379-A674EC7AF5CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Domain", "2-Domain", "{01C9FB90-5EF8-43F7-90A1-BEA28A12A2FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Infra", "3-Infra", "{CAA064AA-B9F9-437E-BA64-4D841D662CC8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.1-Data", "3.1-Data", "{4E85C288-5322-4EDC-9F0D-5EC77ACF42DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.2-CrossCutting", "3.2-CrossCutting", "{7F09192C-495B-4890-8A58-98B0814746D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.PushNotification", "src\API.PushNotification\API.PushNotification.csproj", "{D2D6BAFB-85D0-41BB-904F-1ECB09633CDF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2D6BAFB-85D0-41BB-904F-1ECB09633CDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2D6BAFB-85D0-41BB-904F-1ECB09633CDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2D6BAFB-85D0-41BB-904F-1ECB09633CDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2D6BAFB-85D0-41BB-904F-1ECB09633CDF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D2D6BAFB-85D0-41BB-904F-1ECB09633CDF} = {44641D33-1655-49DD-BCB5-ED14C2182AB3}
+		{4E85C288-5322-4EDC-9F0D-5EC77ACF42DB} = {CAA064AA-B9F9-437E-BA64-4D841D662CC8}
+		{7F09192C-495B-4890-8A58-98B0814746D3} = {CAA064AA-B9F9-437E-BA64-4D841D662CC8}
+	EndGlobalSection
+EndGlobal
