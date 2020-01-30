@@ -8,5 +8,6 @@ namespace Icomon.PushNotification.Domain.Interfaces.Services
         Response Add(UserFCM userFCM);
         Response Update(UserFCM userFCM);
         Response Find(int idApp, string re);
+        Response Find(int id);
     }
 }

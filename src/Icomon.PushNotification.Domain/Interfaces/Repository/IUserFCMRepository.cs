@@ -7,5 +7,6 @@ namespace Icomon.PushNotification.Domain.Interfaces.Repository
         int Add(UserFCM userFCM);
         void Update(UserFCM userFCM);
         UserFCM Find(int idApp, string re);
+        UserFCM Find(int id);
     }
 }

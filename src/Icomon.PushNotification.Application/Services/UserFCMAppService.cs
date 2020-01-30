@@ -22,5 +22,9 @@ namespace Icomon.PushNotification.Application.Services
         {
             return _userFCMService.Find(idApp, re);
         }
+        public Response Find(int id)
+        {
+            return _userFCMService.Find(id);
+        }
     }
 }

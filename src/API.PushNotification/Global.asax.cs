@@ -9,6 +9,8 @@ using System.Web.Optimization;
 using System.Collections.Generic;
 using SimpleInjector.Integration.WebApi;
 
+using API.PushNotification.Filters;
+using API.PushNotification.AutoMapper;
 using Icomon.PushNotification.Infra.CrossCutting.IoC;
 
 namespace API.PushNotification
@@ -18,6 +20,10 @@ namespace API.PushNotification
         protected void Application_Start()
         {
             GlobalConfiguration.Configure(WebApiConfig.Register);
+
+            GlobalConfiguration.Configuration.Filters.Add(new ExceptionsFilter());
+
+            AutoMapperConfig.RegisterMappings();
 
             var container = new Container();
             var resolvers = new SimpleInjectorResolver(container);

@@ -22,7 +22,7 @@ namespace Icomon.PushNotification.Infra.Data.Repositories.Dapper
             try
             {
                 string query = string.Format(@"INSERT INTO UserFCM
-                                               VALUES ({0}, '{1}', '{2}')", userFCM.IdApp, userFCM.Re, userFCM.Token);
+                                               VALUES ({0}, '{1}', '{2}', GETDATE(), NULL, NULL)", userFCM.IdApp, userFCM.Re, userFCM.Token);
 
                 var dapper = new DapperHelper(cn);
                 retorno = dapper.QueryInsert(query, userFCM);
@@ -38,7 +38,7 @@ namespace Icomon.PushNotification.Infra.Data.Repositories.Dapper
         {
             try
             {
-                string query = string.Format(@"UPDATE UserFCM SET Token = '{0}'
+                string query = string.Format(@"UPDATE UserFCM SET Token = '{0}', DataAlteracao = GETDATE()
                                                WHERE IdApp = {1} AND Re = '{2}'"
                                                , userFCM.Token, userFCM.IdApp, userFCM.Re);
 
@@ -57,6 +57,24 @@ namespace Icomon.PushNotification.Infra.Data.Repositories.Dapper
             try
             {
                 string query = string.Format(@"SELECT * FROM UserFCM WHERE IdApp = {0} AND Re = '{1}'", idApp, re);
+
+                var dapper = new DapperHelper(cn);
+                userFCM = (UserFCM)dapper.QueryFirstOrDefault<UserFCM>(query);
+            }
+            catch (Exception e)
+            {
+                throw new Exception("Erro ao encontrar o usuário FCM! ErrorMessage: " + e.Message);
+            }
+
+            return userFCM;
+        }
+        public UserFCM Find(int id)
+        {
+            UserFCM userFCM = new UserFCM();
+
+            try
+            {
+                string query = string.Format(@"SELECT * FROM UserFCM WHERE Id = {0}", id);
 
                 var dapper = new DapperHelper(cn);
                 userFCM = (UserFCM)dapper.QueryFirstOrDefault<UserFCM>(query);

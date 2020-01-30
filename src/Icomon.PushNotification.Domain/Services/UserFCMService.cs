@@ -75,5 +75,26 @@ namespace Icomon.PushNotification.Domain.Services
 
             return res;
         }
+        public Response Find(int id)
+        {
+            Response res = new Response();
+
+            try
+            {
+                var userFCM = _userFCMRepository.Find(id);
+
+                res.success = true;
+                res.message = "Usuário FCM encontrado!";
+                res.data = userFCM;
+            }
+            catch (Exception e)
+            {
+                res.success = false;
+                res.message = e.Message;
+                res.data = null;
+            }
+
+            return res;
+        }
     }
 }
