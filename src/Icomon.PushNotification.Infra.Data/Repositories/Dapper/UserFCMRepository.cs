@@ -9,7 +9,6 @@ namespace Icomon.PushNotification.Infra.Data.Repositories.Dapper
     public class UserFCMRepository : IUserFCMRepository
     {
         private string cn;
-
         public UserFCMRepository()
         {
             cn = System.Configuration.ConfigurationManager.ConnectionStrings["API.PushNotification"].ConnectionString;

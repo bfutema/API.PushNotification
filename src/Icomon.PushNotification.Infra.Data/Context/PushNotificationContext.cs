@@ -13,6 +13,7 @@ namespace Icomon.PushNotification.Infra.Data.Context
         public PushNotificationContext() : base("API.PushNotification") { }
 
         public DbSet<UserFCM> Usuarios { get; set; }
+        public DbSet<Notification> Notifications { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
@@ -35,6 +36,7 @@ namespace Icomon.PushNotification.Infra.Data.Context
 
             // Tables Configurations
             modelBuilder.Configurations.Add(new UserFCMConfiguration());
+            modelBuilder.Configurations.Add(new NotificationConfiguration());
         }
 
         public override int SaveChanges()

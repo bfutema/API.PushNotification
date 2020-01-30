@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using API.PushNotification.Validators.Attributes;
 
-namespace API.PushNotification.Models
+namespace API.PushNotification.Models.Request
 {
     public class UserFCMRequest
     {

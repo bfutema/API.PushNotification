@@ -7,10 +7,11 @@ using System.Net.Http;
 using System.Web.Http.Cors;
 using System.Threading.Tasks;
 
-using API.PushNotification.Models;
+using API.PushNotification.Models.Request;
+using API.PushNotification.Models.Response;
+using API.PushNotification.Exceptions;
 using Icomon.PushNotification.Domain.Entities;
 using Icomon.PushNotification.Application.Interfaces;
-using API.PushNotification.Exceptions;
 
 namespace API.PushNotification.Controllers
 {
@@ -62,7 +63,8 @@ namespace API.PushNotification.Controllers
                 }
                 else
                 {
-                    _userFCMApp.Update(Mapper.Map<UserFCMRequest, UserFCM>(userFCMRequest));
+                    if (checkUserExists.Token != userFCMRequest.Token)
+                        _userFCMApp.Update(Mapper.Map<UserFCMRequest, UserFCM>(userFCMRequest));
 
                     statusCode = HttpStatusCode.OK;
 

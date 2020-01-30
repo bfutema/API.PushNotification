@@ -19,18 +19,21 @@ namespace Icomon.PushNotification.Infra.CrossCutting.IoC
             #region Application
 
             container.Register<IUserFCMAppService, UserFCMAppService>(Lifestyle.Scoped);
+            container.Register<INotificationAppService, NotificationAppService>(Lifestyle.Scoped);
 
             #endregion
 
             #region Domain
 
             container.Register<IUserFCMService, UserFCMService>(Lifestyle.Scoped);
+            container.Register<INotificationService, NotificationService>(Lifestyle.Scoped);
 
             #endregion
 
             #region Infra
 
             container.Register<IUserFCMRepository, UserFCMRepository>(Lifestyle.Scoped);
+            container.Register<INotificationRepository, NotificationRepository>(Lifestyle.Scoped);
 
             #endregion
         }

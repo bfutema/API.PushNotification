@@ -32,6 +32,21 @@ namespace API.PushNotification.Filters
 
                 throw new HttpResponseException(resp);
             }
+
+            if (actionExecutedContext.Exception is NotFoundException)
+            {
+                string message = JsonConvert.SerializeObject(new
+                {
+                    message = actionExecutedContext.Exception.Message,
+                });
+
+                var resp = new HttpResponseMessage(HttpStatusCode.NotFound)
+                {
+                    Content = new StringContent(message),
+                };
+
+                throw new HttpResponseException(resp);
+            }
             
             if (actionExecutedContext.Exception is ConflictModelException)
             {
@@ -44,6 +59,21 @@ namespace API.PushNotification.Filters
                 });
 
                 var resp = new HttpResponseMessage(HttpStatusCode.Conflict)
+                {
+                    Content = new StringContent(message),
+                };
+
+                throw new HttpResponseException(resp);
+            }
+
+            if (actionExecutedContext.Exception is InternalServerErrorException)
+            {
+                string message = JsonConvert.SerializeObject(new
+                {
+                    message = actionExecutedContext.Exception.Message,
+                });
+
+                var resp = new HttpResponseMessage(HttpStatusCode.InternalServerError)
                 {
                     Content = new StringContent(message),
                 };

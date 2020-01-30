@@ -1,7 +1,7 @@
 ﻿using System;
 using Newtonsoft.Json;
 
-namespace API.PushNotification.Models
+namespace API.PushNotification.Models.Response
 {
     public class UserFCMResponse
     {

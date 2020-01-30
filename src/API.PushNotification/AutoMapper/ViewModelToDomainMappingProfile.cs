@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 
-using API.PushNotification.Models;
+using API.PushNotification.Models.Request;
+using API.PushNotification.Models.Response;
 using Icomon.PushNotification.Domain.Entities;
 
 namespace API.PushNotification.AutoMapper
@@ -16,6 +17,9 @@ namespace API.PushNotification.AutoMapper
         {
             Mapper.CreateMap<UserFCMRequest, UserFCM>();
             Mapper.CreateMap<UserFCMResponse, UserFCM>();
+
+            Mapper.CreateMap<NotificationRequest, Notification>();
+            Mapper.CreateMap<NotificationResponse, Notification>();
         }
     }
 }

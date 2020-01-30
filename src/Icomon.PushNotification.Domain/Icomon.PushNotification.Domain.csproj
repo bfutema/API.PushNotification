@@ -40,11 +40,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Entities\Generic\Entity.cs" />
+    <Compile Include="Entities\Notification.cs" />
     <Compile Include="Entities\UserFCM.cs" />
+    <Compile Include="Interfaces\Repository\INotificationRepository.cs" />
     <Compile Include="Interfaces\Repository\IUserFCMRepository.cs" />
+    <Compile Include="Interfaces\Services\INotificationService.cs" />
     <Compile Include="Interfaces\Services\IUserFCMService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Request\Response.cs" />
+    <Compile Include="Services\NotificationService.cs" />
     <Compile Include="Services\UserFCMService.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

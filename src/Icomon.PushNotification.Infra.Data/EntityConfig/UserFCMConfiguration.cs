@@ -20,7 +20,7 @@ namespace Icomon.PushNotification.Infra.Data.EntityConfig
 
             Property(u => u.Token)
                 .IsRequired()
-                .HasMaxLength(150);
+                .HasMaxLength(250);
         }
     }
 }

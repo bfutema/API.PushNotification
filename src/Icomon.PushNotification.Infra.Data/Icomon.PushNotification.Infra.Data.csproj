@@ -54,10 +54,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Context\PushNotificationContext.cs" />
+    <Compile Include="EntityConfig\NotificationConfiguration.cs" />
     <Compile Include="EntityConfig\UserFCMConfiguration.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\Dapper\Generic\DapperHelper.cs" />
+    <Compile Include="Repositories\Dapper\NotificationRepository.cs" />
     <Compile Include="Repositories\Dapper\UserFCMRepository.cs" />
   </ItemGroup>
   <ItemGroup>
