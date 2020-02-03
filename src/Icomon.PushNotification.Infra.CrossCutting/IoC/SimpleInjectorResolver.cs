@@ -20,6 +20,7 @@ namespace Icomon.PushNotification.Infra.CrossCutting.IoC
 
             container.Register<IUserFCMAppService, UserFCMAppService>(Lifestyle.Scoped);
             container.Register<INotificationAppService, NotificationAppService>(Lifestyle.Scoped);
+            container.Register<IAppTokenAppService, AppTokenAppService>(Lifestyle.Scoped);
 
             #endregion
 
@@ -27,6 +28,7 @@ namespace Icomon.PushNotification.Infra.CrossCutting.IoC
 
             container.Register<IUserFCMService, UserFCMService>(Lifestyle.Scoped);
             container.Register<INotificationService, NotificationService>(Lifestyle.Scoped);
+            container.Register<IAppTokenService, AppTokenService>(Lifestyle.Scoped);
 
             #endregion
 
@@ -34,6 +36,7 @@ namespace Icomon.PushNotification.Infra.CrossCutting.IoC
 
             container.Register<IUserFCMRepository, UserFCMRepository>(Lifestyle.Scoped);
             container.Register<INotificationRepository, NotificationRepository>(Lifestyle.Scoped);
+            container.Register<IAppTokenRepository, AppTokenRepository>(Lifestyle.Scoped);
 
             #endregion
         }

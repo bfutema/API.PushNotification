@@ -1,0 +1,7 @@
+C:\Repositorios\PropostasICOMON\API.PushNotification\src\Icomon.PushNotification.Application\bin\Release\Icomon.PushNotification.Application.dll
+C:\Repositorios\PropostasICOMON\API.PushNotification\src\Icomon.PushNotification.Application\bin\Release\Icomon.PushNotification.Application.pdb
+C:\Repositorios\PropostasICOMON\API.PushNotification\src\Icomon.PushNotification.Application\bin\Release\Icomon.PushNotification.Domain.dll
+C:\Repositorios\PropostasICOMON\API.PushNotification\src\Icomon.PushNotification.Application\bin\Release\Icomon.PushNotification.Domain.pdb
+C:\Repositorios\PropostasICOMON\API.PushNotification\src\Icomon.PushNotification.Application\obj\Release\Icomon.PushNotification.Application.csprojResolveAssemblyReference.cache
+C:\Repositorios\PropostasICOMON\API.PushNotification\src\Icomon.PushNotification.Application\obj\Release\Icomon.PushNotification.Application.dll
+C:\Repositorios\PropostasICOMON\API.PushNotification\src\Icomon.PushNotification.Application\obj\Release\Icomon.PushNotification.Application.pdb

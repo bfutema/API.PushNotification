@@ -1,0 +1,4 @@
+C:\Repositorios\PropostasICOMON\API.PushNotification\src\Icomon.PushNotification.Domain\bin\Release\Icomon.PushNotification.Domain.dll
+C:\Repositorios\PropostasICOMON\API.PushNotification\src\Icomon.PushNotification.Domain\bin\Release\Icomon.PushNotification.Domain.pdb
+C:\Repositorios\PropostasICOMON\API.PushNotification\src\Icomon.PushNotification.Domain\obj\Release\Icomon.PushNotification.Domain.dll
+C:\Repositorios\PropostasICOMON\API.PushNotification\src\Icomon.PushNotification.Domain\obj\Release\Icomon.PushNotification.Domain.pdb
