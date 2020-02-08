@@ -5,3 +5,12 @@ C:\Repositorios\PropostasICOMON\API.PushNotification\src\Icomon.PushNotification
 C:\Repositorios\PropostasICOMON\API.PushNotification\src\Icomon.PushNotification.Application\obj\Debug\Icomon.PushNotification.Application.csprojResolveAssemblyReference.cache
 C:\Repositorios\PropostasICOMON\API.PushNotification\src\Icomon.PushNotification.Application\obj\Debug\Icomon.PushNotification.Application.dll
 C:\Repositorios\PropostasICOMON\API.PushNotification\src\Icomon.PushNotification.Application\obj\Debug\Icomon.PushNotification.Application.pdb
+D:\Repositorios\GitHub\Projects\API.PushNotification\src\Icomon.PushNotification.Application\bin\Debug\Icomon.PushNotification.Application.dll
+D:\Repositorios\GitHub\Projects\API.PushNotification\src\Icomon.PushNotification.Application\bin\Debug\Icomon.PushNotification.Application.pdb
+D:\Repositorios\GitHub\Projects\API.PushNotification\src\Icomon.PushNotification.Application\bin\Debug\Icomon.PushNotification.Domain.dll
+D:\Repositorios\GitHub\Projects\API.PushNotification\src\Icomon.PushNotification.Application\bin\Debug\Icomon.PushNotification.Domain.pdb
+D:\Repositorios\GitHub\Projects\API.PushNotification\src\Icomon.PushNotification.Application\obj\Debug\Icomon.PushNotification.Application.csprojAssemblyReference.cache
+D:\Repositorios\GitHub\Projects\API.PushNotification\src\Icomon.PushNotification.Application\obj\Debug\Icomon.PushNotification.Application.csproj.CoreCompileInputs.cache
+D:\Repositorios\GitHub\Projects\API.PushNotification\src\Icomon.PushNotification.Application\obj\Debug\Icomon.PushNotification.Application.csproj.CopyComplete
+D:\Repositorios\GitHub\Projects\API.PushNotification\src\Icomon.PushNotification.Application\obj\Debug\Icomon.PushNotification.Application.dll
+D:\Repositorios\GitHub\Projects\API.PushNotification\src\Icomon.PushNotification.Application\obj\Debug\Icomon.PushNotification.Application.pdb
