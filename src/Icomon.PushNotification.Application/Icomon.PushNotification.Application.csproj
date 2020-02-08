@@ -41,9 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interfaces\IAppTokenAppService.cs" />
     <Compile Include="Interfaces\INotificationAppService.cs" />
     <Compile Include="Interfaces\IUserFCMAppService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\AppTokenAppService.cs" />
     <Compile Include="Services\NotificationAppService.cs" />
     <Compile Include="Services\UserFCMAppService.cs" />
   </ItemGroup>

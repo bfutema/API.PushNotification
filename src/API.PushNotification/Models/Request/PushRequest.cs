@@ -9,9 +9,9 @@ namespace API.PushNotification.Models.Request
         [JsonProperty("notification")]
         public NotificationRequest Notification { get; set; }
 
-        [Required(ErrorMessage = "é obrigatório.")]
-        [JsonProperty("authFCM")]
-        public string AuthorizationFCM { get; set; }
+        //[Required(ErrorMessage = "é obrigatório.")]
+        //[JsonProperty("authFCM")]
+        //public string AuthorizationFCM { get; set; }
 
         [Required(ErrorMessage = "é obrigatório.")]
         [RegularExpression(@"[0-9]{6}", ErrorMessage = "apenas números.")]

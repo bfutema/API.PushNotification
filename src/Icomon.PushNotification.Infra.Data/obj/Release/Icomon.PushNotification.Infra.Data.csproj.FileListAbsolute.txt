@@ -1,0 +1,14 @@
+C:\Repositorios\PropostasICOMON\API.PushNotification\src\Icomon.PushNotification.Infra.Data\bin\Release\Icomon.PushNotification.Infra.Data.dll.config
+C:\Repositorios\PropostasICOMON\API.PushNotification\src\Icomon.PushNotification.Infra.Data\bin\Release\Icomon.PushNotification.Infra.Data.dll
+C:\Repositorios\PropostasICOMON\API.PushNotification\src\Icomon.PushNotification.Infra.Data\bin\Release\Icomon.PushNotification.Infra.Data.pdb
+C:\Repositorios\PropostasICOMON\API.PushNotification\src\Icomon.PushNotification.Infra.Data\bin\Release\Dapper.dll
+C:\Repositorios\PropostasICOMON\API.PushNotification\src\Icomon.PushNotification.Infra.Data\bin\Release\EntityFramework.dll
+C:\Repositorios\PropostasICOMON\API.PushNotification\src\Icomon.PushNotification.Infra.Data\bin\Release\EntityFramework.SqlServer.dll
+C:\Repositorios\PropostasICOMON\API.PushNotification\src\Icomon.PushNotification.Infra.Data\bin\Release\Icomon.PushNotification.Domain.dll
+C:\Repositorios\PropostasICOMON\API.PushNotification\src\Icomon.PushNotification.Infra.Data\bin\Release\Icomon.PushNotification.Domain.pdb
+C:\Repositorios\PropostasICOMON\API.PushNotification\src\Icomon.PushNotification.Infra.Data\bin\Release\Dapper.xml
+C:\Repositorios\PropostasICOMON\API.PushNotification\src\Icomon.PushNotification.Infra.Data\bin\Release\EntityFramework.xml
+C:\Repositorios\PropostasICOMON\API.PushNotification\src\Icomon.PushNotification.Infra.Data\bin\Release\EntityFramework.SqlServer.xml
+C:\Repositorios\PropostasICOMON\API.PushNotification\src\Icomon.PushNotification.Infra.Data\obj\Release\Icomon.PushNotification.Infra.Data.csprojResolveAssemblyReference.cache
+C:\Repositorios\PropostasICOMON\API.PushNotification\src\Icomon.PushNotification.Infra.Data\obj\Release\Icomon.PushNotification.Infra.Data.dll
+C:\Repositorios\PropostasICOMON\API.PushNotification\src\Icomon.PushNotification.Infra.Data\obj\Release\Icomon.PushNotification.Infra.Data.pdb
